@@ -10,9 +10,21 @@
 		CEDA3B6C28375A7E0004EDED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA3B6B28375A7E0004EDED /* AppDelegate.swift */; };
 		CEDA3B6E28375A7E0004EDED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA3B6D28375A7E0004EDED /* SceneDelegate.swift */; };
 		CEDA3B7028375A7E0004EDED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA3B6F28375A7E0004EDED /* ViewController.swift */; };
-		CEDA3B7328375A7E0004EDED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDA3B7128375A7E0004EDED /* Main.storyboard */; };
 		CEDA3B7528375A810004EDED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDA3B7428375A810004EDED /* Assets.xcassets */; };
 		CEDA3B7828375A810004EDED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDA3B7628375A810004EDED /* LaunchScreen.storyboard */; };
+		CEDA3B8428375F9F0004EDED /* APIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA3B8328375F9F0004EDED /* APIConfiguration.swift */; };
+		CEDA3B8728375FF90004EDED /* APIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA3B8628375FF90004EDED /* APIProvider.swift */; };
+		CEDA3B89283760050004EDED /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA3B88283760050004EDED /* NetworkManager.swift */; };
+		CEDA3B8B283762B60004EDED /* AllUsersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA3B8A283762B60004EDED /* AllUsersModel.swift */; };
+		CEDA3B8D283763600004EDED /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA3B8C283763600004EDED /* UserModel.swift */; };
+		CEDA3B99283767290004EDED /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA3B98283767290004EDED /* MainViewController.swift */; };
+		CEDA3B9B2837675A0004EDED /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA3B9A2837675A0004EDED /* MainView.swift */; };
+		CEDA3B9D2837679C0004EDED /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA3B9C2837679C0004EDED /* MainPresenter.swift */; };
+		CEDA3B9F283767EE0004EDED /* MainAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA3B9E283767EE0004EDED /* MainAssembly.swift */; };
+		CEDA3BA1283767FB0004EDED /* UserDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA3BA0283767FB0004EDED /* UserDetailsPresenter.swift */; };
+		CEDA3BA3283768090004EDED /* UserDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA3BA2283768090004EDED /* UserDetailsView.swift */; };
+		CEDA3BA5283768150004EDED /* UserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA3BA4283768150004EDED /* UserDetailsViewController.swift */; };
+		CEDA3BA72837683C0004EDED /* UserDetailsAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDA3BA62837683C0004EDED /* UserDetailsAssembly.swift */; };
 		E64231E1E78328A16CFE07BE /* Pods_GitTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BB482A202C229514DA7F263 /* Pods_GitTestApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,10 +36,22 @@
 		CEDA3B6B28375A7E0004EDED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEDA3B6D28375A7E0004EDED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CEDA3B6F28375A7E0004EDED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CEDA3B7228375A7E0004EDED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEDA3B7428375A810004EDED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEDA3B7728375A810004EDED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEDA3B7928375A810004EDED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDA3B8328375F9F0004EDED /* APIConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfiguration.swift; sourceTree = "<group>"; };
+		CEDA3B8628375FF90004EDED /* APIProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIProvider.swift; sourceTree = "<group>"; };
+		CEDA3B88283760050004EDED /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		CEDA3B8A283762B60004EDED /* AllUsersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllUsersModel.swift; sourceTree = "<group>"; };
+		CEDA3B8C283763600004EDED /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		CEDA3B98283767290004EDED /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CEDA3B9A2837675A0004EDED /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		CEDA3B9C2837679C0004EDED /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		CEDA3B9E283767EE0004EDED /* MainAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAssembly.swift; sourceTree = "<group>"; };
+		CEDA3BA0283767FB0004EDED /* UserDetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsPresenter.swift; sourceTree = "<group>"; };
+		CEDA3BA2283768090004EDED /* UserDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsView.swift; sourceTree = "<group>"; };
+		CEDA3BA4283768150004EDED /* UserDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsViewController.swift; sourceTree = "<group>"; };
+		CEDA3BA62837683C0004EDED /* UserDetailsAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsAssembly.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +72,6 @@
 				7A45FA57F6AF6B0A7E410E12 /* Pods-GitTestApp.debug.xcconfig */,
 				B74675A2C3C47034695C24AA /* Pods-GitTestApp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -73,15 +96,139 @@
 		CEDA3B6A28375A7E0004EDED /* GitTestApp */ = {
 			isa = PBXGroup;
 			children = (
-				CEDA3B6B28375A7E0004EDED /* AppDelegate.swift */,
-				CEDA3B6D28375A7E0004EDED /* SceneDelegate.swift */,
+				CEDA3B7F28375F590004EDED /* Supporting */,
+				CEDA3B8E283763F70004EDED /* Stories */,
 				CEDA3B6F28375A7E0004EDED /* ViewController.swift */,
-				CEDA3B7128375A7E0004EDED /* Main.storyboard */,
 				CEDA3B7428375A810004EDED /* Assets.xcassets */,
 				CEDA3B7628375A810004EDED /* LaunchScreen.storyboard */,
 				CEDA3B7928375A810004EDED /* Info.plist */,
 			);
 			path = GitTestApp;
+			sourceTree = "<group>";
+		};
+		CEDA3B7F28375F590004EDED /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA3B8028375F640004EDED /* App */,
+				CEDA3B8128375F810004EDED /* Network */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		CEDA3B8028375F640004EDED /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA3B6B28375A7E0004EDED /* AppDelegate.swift */,
+				CEDA3B6D28375A7E0004EDED /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CEDA3B8128375F810004EDED /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA3B8228375F8D0004EDED /* Models */,
+				CEDA3B8328375F9F0004EDED /* APIConfiguration.swift */,
+				CEDA3B8628375FF90004EDED /* APIProvider.swift */,
+				CEDA3B88283760050004EDED /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		CEDA3B8228375F8D0004EDED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA3B8528375FD20004EDED /* Users */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CEDA3B8528375FD20004EDED /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA3B8A283762B60004EDED /* AllUsersModel.swift */,
+				CEDA3B8C283763600004EDED /* UserModel.swift */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		CEDA3B8E283763F70004EDED /* Stories */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA3B8F283764020004EDED /* Main */,
+				CEDA3B90283764060004EDED /* UserDetails */,
+			);
+			path = Stories;
+			sourceTree = "<group>";
+		};
+		CEDA3B8F283764020004EDED /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA3B922837645E0004EDED /* Presenter */,
+				CEDA3B91283764540004EDED /* View */,
+				CEDA3B93283764630004EDED /* Assembly */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CEDA3B90283764060004EDED /* UserDetails */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA3B94283766150004EDED /* Presenter */,
+				CEDA3B952837661B0004EDED /* View */,
+				CEDA3B96283766210004EDED /* Assembly */,
+			);
+			path = UserDetails;
+			sourceTree = "<group>";
+		};
+		CEDA3B91283764540004EDED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA3B98283767290004EDED /* MainViewController.swift */,
+				CEDA3B9A2837675A0004EDED /* MainView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CEDA3B922837645E0004EDED /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA3B9C2837679C0004EDED /* MainPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		CEDA3B93283764630004EDED /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA3B9E283767EE0004EDED /* MainAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		CEDA3B94283766150004EDED /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA3BA0283767FB0004EDED /* UserDetailsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		CEDA3B952837661B0004EDED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA3BA4283768150004EDED /* UserDetailsViewController.swift */,
+				CEDA3BA2283768090004EDED /* UserDetailsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CEDA3B96283766210004EDED /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				CEDA3BA62837683C0004EDED /* UserDetailsAssembly.swift */,
+			);
+			path = Assembly;
 			sourceTree = "<group>";
 		};
 		F0ED409D661EA424F110D414 /* Frameworks */ = {
@@ -154,7 +301,6 @@
 			files = (
 				CEDA3B7828375A810004EDED /* LaunchScreen.storyboard in Resources */,
 				CEDA3B7528375A810004EDED /* Assets.xcassets in Resources */,
-				CEDA3B7328375A7E0004EDED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,23 +353,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEDA3BA3283768090004EDED /* UserDetailsView.swift in Sources */,
+				CEDA3B89283760050004EDED /* NetworkManager.swift in Sources */,
 				CEDA3B7028375A7E0004EDED /* ViewController.swift in Sources */,
+				CEDA3B8D283763600004EDED /* UserModel.swift in Sources */,
+				CEDA3B9B2837675A0004EDED /* MainView.swift in Sources */,
+				CEDA3BA5283768150004EDED /* UserDetailsViewController.swift in Sources */,
 				CEDA3B6C28375A7E0004EDED /* AppDelegate.swift in Sources */,
+				CEDA3BA1283767FB0004EDED /* UserDetailsPresenter.swift in Sources */,
+				CEDA3B8728375FF90004EDED /* APIProvider.swift in Sources */,
+				CEDA3BA72837683C0004EDED /* UserDetailsAssembly.swift in Sources */,
 				CEDA3B6E28375A7E0004EDED /* SceneDelegate.swift in Sources */,
+				CEDA3B99283767290004EDED /* MainViewController.swift in Sources */,
+				CEDA3B9D2837679C0004EDED /* MainPresenter.swift in Sources */,
+				CEDA3B8428375F9F0004EDED /* APIConfiguration.swift in Sources */,
+				CEDA3B9F283767EE0004EDED /* MainAssembly.swift in Sources */,
+				CEDA3B8B283762B60004EDED /* AllUsersModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CEDA3B7128375A7E0004EDED /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CEDA3B7228375A7E0004EDED /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CEDA3B7628375A810004EDED /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -362,7 +513,6 @@
 				INFOPLIST_FILE = GitTestApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -391,7 +541,6 @@
 				INFOPLIST_FILE = GitTestApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
